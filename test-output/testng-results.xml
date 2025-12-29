@@ -2,53 +2,53 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-29T12:20:51 IST" name="Suite" finished-at="2025-12-29T12:21:33 IST" duration-ms="42338">
+  <suite started-at="2025-12-29T12:55:46 IST" name="Default suite" finished-at="2025-12-29T12:56:25 IST" duration-ms="39747">
     <groups>
       <group name="authentication">
-        <method signature="Authentication.validEmailInvalidPassword()[pri:0, instance:com.ibm.testing.Authentication@c730b35]" name="validEmailInvalidPassword" class="com.ibm.testing.Authentication"/>
-        <method signature="Authentication.validEmailInvalidPasswordFormat()[pri:0, instance:com.ibm.testing.Authentication@c730b35]" name="validEmailInvalidPasswordFormat" class="com.ibm.testing.Authentication"/>
-        <method signature="Authentication.validLogin()[pri:0, instance:com.ibm.testing.Authentication@c730b35]" name="validLogin" class="com.ibm.testing.Authentication"/>
+        <method signature="Authentication.validEmailInvalidPassword()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" name="validEmailInvalidPassword" class="com.ibm.testing.Authentication"/>
+        <method signature="Authentication.validEmailInvalidPasswordFormat()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" name="validEmailInvalidPasswordFormat" class="com.ibm.testing.Authentication"/>
+        <method signature="Authentication.validLogin()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" name="validLogin" class="com.ibm.testing.Authentication"/>
       </group> <!-- authentication -->
     </groups>
-    <test started-at="2025-12-29T12:20:51 IST" name="Test" finished-at="2025-12-29T12:21:33 IST" duration-ms="42338">
+    <test started-at="2025-12-29T12:55:46 IST" name="Default test" finished-at="2025-12-29T12:56:25 IST" duration-ms="39747">
       <class name="com.ibm.testing.Authentication">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.testing.Authentication@c730b35]" started-at="2025-12-29T12:20:51 IST" name="setUp" finished-at="2025-12-29T12:20:55 IST" duration-ms="4759" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:55:46 IST" name="setUp" finished-at="2025-12-29T12:55:50 IST" duration-ms="4406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validEmailInvalidPassword()[pri:0, instance:com.ibm.testing.Authentication@c730b35]" started-at="2025-12-29T12:20:55 IST" name="validEmailInvalidPassword" finished-at="2025-12-29T12:21:01 IST" duration-ms="5229" status="PASS">
+        <test-method signature="validEmailInvalidPassword()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:55:50 IST" name="validEmailInvalidPassword" finished-at="2025-12-29T12:55:55 IST" duration-ms="5255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validEmailInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.testing.Authentication@c730b35]" started-at="2025-12-29T12:21:01 IST" name="tearDown" finished-at="2025-12-29T12:21:05 IST" duration-ms="4600" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:55:55 IST" name="tearDown" finished-at="2025-12-29T12:56:00 IST" duration-ms="4642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.testing.Authentication@c730b35]" started-at="2025-12-29T12:21:05 IST" name="setUp" finished-at="2025-12-29T12:21:09 IST" duration-ms="3987" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:56:00 IST" name="setUp" finished-at="2025-12-29T12:56:03 IST" duration-ms="2691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validEmailInvalidPasswordFormat()[pri:0, instance:com.ibm.testing.Authentication@c730b35]" started-at="2025-12-29T12:21:09 IST" name="validEmailInvalidPasswordFormat" finished-at="2025-12-29T12:21:14 IST" duration-ms="5123" status="PASS">
+        <test-method signature="validEmailInvalidPasswordFormat()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:56:03 IST" name="validEmailInvalidPasswordFormat" finished-at="2025-12-29T12:56:08 IST" duration-ms="5141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validEmailInvalidPasswordFormat -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.testing.Authentication@c730b35]" started-at="2025-12-29T12:21:14 IST" name="tearDown" finished-at="2025-12-29T12:21:19 IST" duration-ms="4582" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:56:08 IST" name="tearDown" finished-at="2025-12-29T12:56:12 IST" duration-ms="4497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.testing.Authentication@c730b35]" started-at="2025-12-29T12:21:19 IST" name="setUp" finished-at="2025-12-29T12:21:22 IST" duration-ms="3490" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:56:12 IST" name="setUp" finished-at="2025-12-29T12:56:15 IST" duration-ms="2692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLogin()[pri:0, instance:com.ibm.testing.Authentication@c730b35]" started-at="2025-12-29T12:21:22 IST" name="validLogin" finished-at="2025-12-29T12:21:28 IST" duration-ms="5925" status="PASS">
+        <test-method signature="validLogin()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:56:15 IST" name="validLogin" finished-at="2025-12-29T12:56:21 IST" duration-ms="5712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.testing.Authentication@c730b35]" started-at="2025-12-29T12:21:28 IST" name="tearDown" finished-at="2025-12-29T12:21:33 IST" duration-ms="4555" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:56:21 IST" name="tearDown" finished-at="2025-12-29T12:56:25 IST" duration-ms="4597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ibm.testing.Authentication -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
