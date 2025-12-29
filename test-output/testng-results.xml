@@ -1,54 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-29T12:55:46 IST" name="Default suite" finished-at="2025-12-29T12:56:25 IST" duration-ms="39747">
+  <suite started-at="2025-12-29T15:44:14 IST" name="Default suite" finished-at="2025-12-29T15:46:44 IST" duration-ms="149704">
     <groups>
-      <group name="authentication">
-        <method signature="Authentication.validEmailInvalidPassword()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" name="validEmailInvalidPassword" class="com.ibm.testing.Authentication"/>
-        <method signature="Authentication.validEmailInvalidPasswordFormat()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" name="validEmailInvalidPasswordFormat" class="com.ibm.testing.Authentication"/>
-        <method signature="Authentication.validLogin()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" name="validLogin" class="com.ibm.testing.Authentication"/>
-      </group> <!-- authentication -->
+      <group name="navigations">
+        <method signature="NavigationTests.openAdminPanel()[pri:1, instance:com.ibm.testing.NavigationTests@59474f18]" name="openAdminPanel" class="com.ibm.testing.NavigationTests"/>
+        <method signature="NavigationTests.openSubjectCard()[pri:2, instance:com.ibm.testing.NavigationTests@59474f18]" name="openSubjectCard" class="com.ibm.testing.NavigationTests"/>
+        <method signature="NavigationTests.addSubtopics()[pri:3, instance:com.ibm.testing.NavigationTests@59474f18]" name="addSubtopics" class="com.ibm.testing.NavigationTests"/>
+        <method signature="NavigationTests.addSubject()[pri:4, instance:com.ibm.testing.NavigationTests@59474f18]" name="addSubject" class="com.ibm.testing.NavigationTests"/>
+        <method signature="NavigationTests.aboutUs()[pri:5, instance:com.ibm.testing.NavigationTests@59474f18]" name="aboutUs" class="com.ibm.testing.NavigationTests"/>
+      </group> <!-- navigations -->
     </groups>
-    <test started-at="2025-12-29T12:55:46 IST" name="Default test" finished-at="2025-12-29T12:56:25 IST" duration-ms="39747">
-      <class name="com.ibm.testing.Authentication">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:55:46 IST" name="setUp" finished-at="2025-12-29T12:55:50 IST" duration-ms="4406" status="PASS">
+    <test started-at="2025-12-29T15:44:14 IST" name="Default test" finished-at="2025-12-29T15:46:44 IST" duration-ms="149704">
+      <class name="com.ibm.testing.NavigationTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:44:14 IST" name="setUp" finished-at="2025-12-29T15:44:20 IST" duration-ms="5757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validEmailInvalidPassword()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:55:50 IST" name="validEmailInvalidPassword" finished-at="2025-12-29T12:55:55 IST" duration-ms="5255" status="PASS">
+        <test-method is-config="true" signature="loginHelper()[pri:0, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:44:20 IST" name="loginHelper" finished-at="2025-12-29T15:44:25 IST" duration-ms="5138" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validEmailInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:55:55 IST" name="tearDown" finished-at="2025-12-29T12:56:00 IST" duration-ms="4642" status="PASS">
+        </test-method> <!-- loginHelper -->
+        <test-method signature="openAdminPanel()[pri:1, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:44:25 IST" name="openAdminPanel" finished-at="2025-12-29T15:44:40 IST" duration-ms="15092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAdminPanel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:44:40 IST" name="tearDown" finished-at="2025-12-29T15:44:45 IST" duration-ms="4524" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:56:00 IST" name="setUp" finished-at="2025-12-29T12:56:03 IST" duration-ms="2691" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:44:45 IST" name="setUp" finished-at="2025-12-29T15:44:49 IST" duration-ms="4844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validEmailInvalidPasswordFormat()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:56:03 IST" name="validEmailInvalidPasswordFormat" finished-at="2025-12-29T12:56:08 IST" duration-ms="5141" status="PASS">
+        <test-method is-config="true" signature="loginHelper()[pri:0, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:44:49 IST" name="loginHelper" finished-at="2025-12-29T15:44:55 IST" duration-ms="5017" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validEmailInvalidPasswordFormat -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:56:08 IST" name="tearDown" finished-at="2025-12-29T12:56:12 IST" duration-ms="4497" status="PASS">
+        </test-method> <!-- loginHelper -->
+        <test-method signature="openSubjectCard()[pri:2, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:44:55 IST" name="openSubjectCard" finished-at="2025-12-29T15:44:56 IST" duration-ms="1521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSubjectCard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:44:56 IST" name="tearDown" finished-at="2025-12-29T15:45:01 IST" duration-ms="4555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:56:12 IST" name="setUp" finished-at="2025-12-29T12:56:15 IST" duration-ms="2692" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:45:01 IST" name="setUp" finished-at="2025-12-29T15:45:06 IST" duration-ms="5019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLogin()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:56:15 IST" name="validLogin" finished-at="2025-12-29T12:56:21 IST" duration-ms="5712" status="PASS">
+        <test-method is-config="true" signature="loginHelper()[pri:0, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:45:06 IST" name="loginHelper" finished-at="2025-12-29T15:45:11 IST" duration-ms="5078" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.testing.Authentication@235834f2]" started-at="2025-12-29T12:56:21 IST" name="tearDown" finished-at="2025-12-29T12:56:25 IST" duration-ms="4597" status="PASS">
+        </test-method> <!-- loginHelper -->
+        <test-method signature="addSubtopics()[pri:3, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:45:11 IST" name="addSubtopics" finished-at="2025-12-29T15:45:25 IST" duration-ms="14392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSubtopics -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:45:25 IST" name="tearDown" finished-at="2025-12-29T15:45:30 IST" duration-ms="4549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.ibm.testing.Authentication -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:45:30 IST" name="setUp" finished-at="2025-12-29T15:45:34 IST" duration-ms="4825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginHelper()[pri:0, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:45:34 IST" name="loginHelper" finished-at="2025-12-29T15:45:39 IST" duration-ms="5010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHelper -->
+        <test-method signature="addSubject()[pri:4, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:45:39 IST" name="addSubject" finished-at="2025-12-29T15:46:13 IST" duration-ms="33691" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Success')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.96, fedcm:accounts: true, goog:processID: 21156, ms:edgeOptions: {debuggerAddress: localhost:60730}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\ARUNAV~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60730/devtoo..., se:cdpVersion: 143.0.3650.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 82d30c92ecae16168e4c7da97bdc1645]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[contains(text(),'Success')] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 143.0.3650.96, fedcm:accounts: true, goog:processID: 21156, ms:edgeOptions: {debuggerAddress: localhost:60730}, msedge: {msedgedriverVersion: 143.0.3650.96 (d55fe85d0141..., userDataDir: C:\Users\ARUNAV~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60730/devtoo..., se:cdpVersion: 143.0.3650.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 82d30c92ecae16168e4c7da97bdc1645
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.ibm.testing.NavigationTests.addSubject(NavigationTests.java:159)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSubject -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:46:13 IST" name="tearDown" finished-at="2025-12-29T15:46:18 IST" duration-ms="4566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:46:18 IST" name="setUp" finished-at="2025-12-29T15:46:23 IST" duration-ms="4879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginHelper()[pri:0, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:46:23 IST" name="loginHelper" finished-at="2025-12-29T15:46:28 IST" duration-ms="5166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHelper -->
+        <test-method signature="aboutUs()[pri:5, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:46:28 IST" name="aboutUs" finished-at="2025-12-29T15:46:39 IST" duration-ms="11460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.testing.NavigationTests@59474f18]" started-at="2025-12-29T15:46:39 IST" name="tearDown" finished-at="2025-12-29T15:46:44 IST" duration-ms="4488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ibm.testing.NavigationTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

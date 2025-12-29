@@ -6,4 +6,10 @@
       <class name="com.ibm.testing.Authentication"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test">
+    <classes>
+      <class name="com.ibm.testing.Setup"/>
+      <class name="com.ibm.testing.Navigation"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
